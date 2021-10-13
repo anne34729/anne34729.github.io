@@ -3,6 +3,9 @@ body {
   background-color: beige;
   padding: .5%;
   width: 95%;
+  min-height: 100vh;
+  border:  1px solid purple;
+  position:  relative;
 }
 
 h1 {
