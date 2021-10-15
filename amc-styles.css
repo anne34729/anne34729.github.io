@@ -41,7 +41,7 @@
   }
 
   #banner {
-    background: transparent url('img/banner-GITHUB.png') no-repeat center center;
+    background: transparent url('img/banner-GITHUB.png') no-repeat top left;
     background-size: contain;
     min-height: 240px;
   }
