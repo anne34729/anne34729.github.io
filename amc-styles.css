@@ -2,13 +2,65 @@
 
   body {
     font-family: "Open Sans", sans-serif;
+    color: #333333;
+    background-color: beige;
+    padding: .5%;
+    width: 95%;
+  /*  min-height: 100vh;
+    border:  1px solid purple;*/
+    position:  relative;
   }
 
-  table {
+  h1 {
+    color: #ad8a4a;
+  }
+
+  a img {
+    max-height: 75px;
+    border: 3px solid transparent;
+  }
+  
+  a:hover img {
+    border: 3px solid #2a6f29;
+  }
+  
+  table.amc {
     border-collapse: collapse;
   }
 
-  td {
+  table.amc td {
     border: 1px solid #eee;
     padding: .25rem;
   }
+
+  ul.none li {
+    list-style: none;
+    padding-bottom: 2%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  
+  #header {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    border: 2px dotted red;
+    color: white;
+    background-color: #2a6f29;
+    font-size: 1.5em;
+    padding: 1%;
+    display: inline-block;
+    margin: .3rem 0;
+  }
+  
+  .nav a:hover {
+    background-color: white;
+    color: #2a6f29;
+  }
+  
+
+  
