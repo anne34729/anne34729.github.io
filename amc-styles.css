@@ -40,6 +40,12 @@
     margin-right: 2%;
   }
 
+  #banner {
+    background: transparent url('img/banner-GITHUB.png') no-repeat center center;
+    background-size: contain;
+    min-height: 240px;
+    border: 1px solid pink;
+  }
   
   #header {
     width: 100%;
