@@ -14,7 +14,13 @@
   .caption {
     display:  block;
     text-align:  center;
-    font: .9rem serif italic;
+    font:  italic .9rem courier
+  }
+  .caption::before {
+    content: "--- ";
+  }
+  .caption::after {
+    content:  " ---";
   }
 
   h1 {
