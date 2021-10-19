@@ -63,21 +63,24 @@
     text-align: center;
   }
   
-  .nav a {
-    text-decoration: none;
-    border: 2px dotted red;
-    color: white;
-    background-color: #2a6f29;
-    font-size: 1.5em;
-    padding: 1%;
-    display: inline-block;
-    margin: .3rem 0;
-  }
-  
-  .nav a:hover {
-    background-color: white;
-    color: #2a6f29;
-  }
+.nav-horizontal a,
+nav.horizontal a {
+  text-decoration: none;
+  border: 2px dotted red;
+  color: white;
+  background-color: #2a6f29;
+  font-size: 1.5em;
+  padding: 1%;
+  display: inline-block;
+  margin: .3rem 0;
+}
+
+.nav-horizontal a:hover,
+nav.horizontal a {
+  background-color: white;
+  color: #2a6f29;
+}
+
   
 
   
