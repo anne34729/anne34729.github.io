@@ -74,7 +74,7 @@
   }
 
   .nav-horizontal a:hover,
-  nav.horizontal a {
+  nav.horizontal a:hover {
     background-color: white;
     color: #2a6f29;
   }
