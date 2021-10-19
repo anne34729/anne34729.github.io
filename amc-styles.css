@@ -10,6 +10,12 @@
     border:  1px solid purple;*/
     position:  relative;
   }
+  caption {
+    display:  block;
+    font-size: .9rem;
+    color: white;
+    background: #333;
+  }
 
   h1 {
     color: #ad8a4a;
