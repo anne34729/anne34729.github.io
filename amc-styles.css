@@ -43,6 +43,9 @@
     padding: .25rem;
   }
 
+  ul.none {
+    margin:  0;
+    }
   ul.none li {
     list-style: none;
     padding-bottom: 2%;
