@@ -7,62 +7,57 @@
     padding: .5%;
     width: 95%;
   /*  min-height: 100vh;
-    border:  1px solid purple;*/
-    position:  relative;
-  }
-  caption,
-  .caption {
-    display:  block;
-    text-align:  center;
-    font:  italic .9rem courier
-  }
-  .caption::before {
-    content: "--- ";
-  }
-  .caption::after {
-    content:  " ---";
-  }
+  border:  1px solid purple;*/
+  position:  relative;
+}
+caption,
+.caption {
+  display:  block;
+  text-align:  center;
+  font:  italic .9rem courier
+}
+.caption::before {
+  content: "--- ";
+}
+.caption::after {
+  content:  " ---";
+}
 
-  h1 {
-    color: #ad8a4a;
-  }
+footer {
+  clear:  both;
+}
+h1 {
+  color: #ad8a4a;
+}
 
-  a img {
-    max-height: 75px;
-    border: 3px solid transparent;
-  }
-  
-  a:hover img {
-    border: 3px solid #2a6f29;
-  }
-  
-  table.amc {
-    border-collapse: collapse;
-  }
+table.amc {
+  border-collapse: collapse;
+}
 
-  table.amc td {
-    border: 1px solid #eee;
-    padding: .25rem;
-  }
+table.amc td {
+  border: 1px solid #eee;
+  padding: .25rem;
+}
 
-  ul.none li {
-    list-style: none;
-    padding-bottom: 2%;
-    float: left;
-    margin-right: 2%;
-  }
+ul.none li {
+  list-style: none;
+  padding-bottom: 2%;
+  float: left;
+  margin-right: 2%;
+}
 
-  #banner {
-    background: transparent url('img/banner-GITHUB.png') no-repeat top left;
-    background-size: contain;
-    min-height: 240px;
-  }
+#banner {
+  background: transparent url('img/banner-GITHUB.png') no-repeat top left;
+  background-size: contain;
+  min-height: 240px;
+}
 
-  #header {
-    width: 100%;
-    text-align: center;
-  }
-  
+#header {
+  width: 100%;
+  text-align: center;
+}
+
+
 .nav-horizontal a,
 nav.horizontal a {
   text-decoration: none;
@@ -80,12 +75,6 @@ nav.horizontal a {
   background-color: white;
   color: #2a6f29;
 }
-nav.horizontal ul li {
-  list-style: none;
-  padding-bottom: 2%;
-  float: left;
-  margin-right: 2%;
-}
 
 a.thumb img {
   max-height: 75px;
@@ -95,6 +84,6 @@ a.thumb img {
 a.thumb:hover img {
   border: 3px solid #2a6f29;
 }
-  
 
-  
+
+
