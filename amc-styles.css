@@ -13,9 +13,7 @@
   caption,
   .caption {
     display:  block;
-    font-size: .9rem;
-    color: white;
-    background: #333;
+    text-align:  center;
   }
 
   h1 {
