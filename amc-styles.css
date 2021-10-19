@@ -67,9 +67,7 @@
   }
 
   .nav-horizontal a,
-  nav.horizontal a,
-  .nav-horizontal a:hover,
-  nav.horizontal a;hover  {
+  nav.horizontal a {
     text-decoration: none;
     border: 2px dotted red;
     color: white;
