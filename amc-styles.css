@@ -44,8 +44,9 @@
   }
 
   ul.none {
-    margin:  0;
+    margin:  0
     }
+
   ul.none li {
     list-style: none;
     padding-bottom: 2%;
