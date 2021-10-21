@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh; /* used for magic footer behavior*/
+  postion: relative; /* used with magic footer behavior*/
+  /* padding: 2%; */
+  width: 96%;
+  color: lightyellow;
+  font-family: Verdana, sans-serif;
+  background-color: #777777;
+}
+figure {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+nav { 
+  margin: 2rem auto
+}
+
+nav a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  color: white;
+  background-color: #07008b;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #07008b;
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 2%
+}
+
+footer {
+  bottom: 0;
+  display: block;
+  margin: 50px auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
