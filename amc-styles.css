@@ -4,24 +4,33 @@
     font-family: "Open Sans", sans-serif;
     color: #333333;
     background-color: beige;
-    padding: .5%;
-    width: 95%;
+    margin: 30px;
     /*  min-height: 100vh;
     border:  1px solid purple;*/
     position: relative;
   }
 
-  caption,
+  a.thumb img {
+    border: 3px solid transparent;
+  }
+
+  a.thumb:hover img {
+    border: 3px solid #2a6f29;
+  }
+
+  figcaption,
   .caption {
     display: block;
     text-align: center;
     font: italic .9rem courier
   }
 
+  figcaption::before,
   .caption::before {
     content: "--- ";
   }
 
+  figcaption::after,
   .caption::after {
     content: " ---";
   }
@@ -44,9 +53,9 @@
   }
 
   ul.none {
-    margin:  0;
+    margin: 0;
     padding: 0;
-    }
+  }
 
   ul.none li {
     list-style: none;
@@ -66,13 +75,17 @@
     text-align: center;
   }
 
+  .border-for-testing {
+    border: 1px solid #f0f
+  }
+
   nav.horizontal a {
     text-decoration: none;
     border: 2px dotted red;
     color: white;
     background-color: #2a6f29;
-    font-size: 1.5em;
-    line-height: ,9rem;
+    font-size: 1.5rem;
+    line-height: .9rem;
     padding: 1%;
     display: inline-block;
     margin: .3rem 0;
@@ -83,10 +96,3 @@
     color: #2a6f29;
   }
 
-  a.thumb img {
-    border: 3px solid transparent;
-  }
-
-  a.thumb:hover img {
-    border: 3px solid #2a6f29;
-  }
