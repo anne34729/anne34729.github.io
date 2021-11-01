@@ -64,6 +64,10 @@
     margin-right: 1%;
   }
 
+  video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
   #banner {
     background: transparent url('img/banner-GITHUB.png') no-repeat top left;
     background-size: contain;
