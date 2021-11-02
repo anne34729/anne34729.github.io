@@ -7,9 +7,19 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="../amc-styles.css">
+
   <style>
-  .video iframe { display: inline }
-</style>
+    p.caption {
+      color: #696969;
+      font-size: .9rem;
+      text-align: center;
+      width: 100%;
+    }
+    iframe { 
+      width: 100%;
+      min-height: 177px;
+    }
+  </style>
 
 
 </head>
@@ -17,24 +27,25 @@
 <body>
   <h1>Video Gallery</h1>
 
-  <div class="container">
-    <div class="row">
-      <div class="video column">
+  <div class="container-fluid mt-5">
+    <div class="row align-items-after">
+      <div class="video col">
         <iframe src="https://www.youtube.com/embed/BFNekjEgvuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="caption">Cute kitten video</p>
       </div>
 
-      <div class="video column">
-        <iframe src="https://www.youtube.com/embed/7yLxxyzGiko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
-      <div class="video column">
+      <div class="video col">
         <iframe src="https://www.youtube.com/embed/5dDjJLdQ6Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="caption">Cute dog video</p>
       </div>
+
+    <div class="video col">
+      <iframe src="https://www.youtube.com/embed/7yLxxyzGiko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class="caption">Cute chickie video</p>
     </div>
+
   </div>
 
-
-  <p><caption>One of my favorite movies of all times is "Inception" by Christopher Nolan and starring Leonardo DiCaprio and Marion Cotllard from 2010.  The premise that a thought could be weaponized, placed in another’s mind and, like a virus, take over and destroys the host on which it feeds, is as insidious and deadly -- and perhaps truer thought than we imagine.  </caption></p>
 
 
 </body>
