@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music Survey - Formatting Forms</title>
+  <link rel="stylesheet" href="../amc-styles.css">
+  <style>
+    body {
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      background-color: beige;
+    }
+    content{
+      width:90%;
+      margin:auto;
+    }
+
+    h1 {
+      text-align:center;
+    }
+
+    form {
+      margin-left:5%;
+    }
+    input {
+      margin-bottom:2%;
+    }
+    input[type=text] {
+      font-size: 1.2rem;
+      width: 200px;
+    }
+    input#submit {
+      display:block;
+      background-color:#33ff99;
+      font-size: 1.2rem;
+      font-weight:bold;
+      padding: 20px;
+      margin: 2% 0;
+    }
+    select {
+      font-size: 1.2rem;
+      width: 150px;
+      margin: 2% 0;
+    }
+    textarea {
+      font-size: 1.2rem;
+      margin: 2% 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <h1>Music Survey</h1>
+    <form method="post" action="https://idesstage2.bc.edu/class/results.php">
+      <label for="name">Name:</label>&nbsp;<input type="text" id="name" name="Name"><br>
+      <label for="email">Email:</label>&nbsp;<input type="text" id="email" name="Email" required><br><br>
+
+      <fieldset>
+        <legend>Select Your Favorite Type of Music</legend>
+        <input type="checkbox" id="pop" name="pop"> <label for="pop">Pop</label><br>
+        <input type="checkbox" id="classical" name="classical"> <label for="classical">Classical</label><br>
+        <input type="checkbox" id="rock" name="rock"> <label for="rock">Rock</label><br>
+        <input type="checkbox" id="folk" name="folk"> <label for="folk">Folk</label><br>
+        <input type="checkbox" id="rap" name="rap"> <label for="rap">Rap</label><br>
+        <input type="checkbox" id="other" name="other"> <label for="other">Other</label><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend>How often do you purchase CDs?</legend>
+        <input type="radio" id="weekly" name="purchases" value="weekly"> <label for="weekly">Weekly</label><br>
+        <input type="radio" id="annually" name="purchases" value="annually"> <label for="annually">A few per year</label><br>
+        <input type="radio" id="monthly" name="purchases" value="monthly"> <label for="monthly">Monthly</label><br>
+        <input type="radio" id="never" name="purchases" value="never"> <label for="never">Never</label><br>
+      </fieldset><br>
+
+      <label for="listening_location">Select the location you listen to music:</label><br>
+      <select name="listening_location" id="listening_location">
+        <option>Select one...</option>
+        <option value="home">At home</option>
+        <option value="work">At work</option>
+        <option value="driving">While driving</option>
+        <option value="working_out">Working out</option>
+      </select><br>
+
+
+      <label name="role">What role does music play in your life?</label><br>
+      <textarea rows="3" cols="60" name="role" id="role"></textarea><br>
+      <input type="submit" id="submit" value="Send Survey">
+      <br>
+    </form>
+  </div>
+  
+</body>
+</html>
