@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Learning JavaScript</title>
+  <meta name="description" content="Learning JavaScript in Web Dev with Prof. Jamie Walker ">
+  <meta name="author" content="Anne McCarthy">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://anne34729.github.io/module7/">
+  <meta property="og:description" content="Learning JavaScript">
+
+  <!-- <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../amc-styles.css">
+    <style>
+      #date_display{
+        background-color:  #000;
+        color: green;
+        display:  block;
+        margin-top:  20px;
+        padding: .25rem .5rem 0;
+        width:  600px;
+        height: 30px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Javascript Example</h1>
+
+
+    <button id="myButton" type="button" onclick="alert('Hi There!')">Greetings!</button><br><br>
+
+    <button type="button" onclick="getDate()">Click me to display Date and Time</button>
+
+    <div id="date_display"></div>
+
+
+    <script>
+      function getDate(){
+        document.getElementById('date_display').innerHTML = Date();
+      }
+    </script>
+
+  </body>
+  </html>
