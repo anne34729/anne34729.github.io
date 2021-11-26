@@ -50,7 +50,7 @@
   </style>
 
   <script>
-function setCookie() {
+function setCookie(){
   let cname = "FirstName"
   const d = new Date();
   d.setTime(d.getTime() + (1*24*60*60*1000));
@@ -60,7 +60,7 @@ function setCookie() {
   return true;
 }
 
-function getCookie(cname) {
+function getCookie(cname){
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
@@ -76,7 +76,7 @@ function getCookie(cname) {
   return "";
 }
 
-function checkCookie() {
+function checkCookie(){
   let fname = getCookie("Firstname");
   if (fname != "") {
     alert("Welcome again " + fname);
@@ -84,7 +84,7 @@ function checkCookie() {
      alert("Submit the form to set your cookie")
      }
   }
-  document.getElementById('welcome').textContent = user +'!';
+  document.getElementById('welcome').textContent = fname +'!';
 
 </script>
 </head>
