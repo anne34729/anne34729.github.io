@@ -56,8 +56,8 @@ function setCookie(){
   d.setTime(d.getTime() + (10*24*60*60*1000));
   let expires = "expires=" + d.toGMTString();
   let cvalue = document.forms[0].first_name.value;
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   document.getElementById('welcome').textContent = cvalue +'!';
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   return true;
 }
 
@@ -84,6 +84,7 @@ function checkCookie(){
   } else {
      alert("Submit the form to set your cookie")
      }
+  document.getElementById('welcome').textContent = fname +'!';
 }
 
 </script>
