@@ -81,10 +81,10 @@ function checkCookie(){
   let fname = getCookie("FirstName");
   if (fname != "") {
     alert("Welcome again " + fname);
+    document.getElementById('welcome').textContent = fname +'!';
   } else {
      alert("Submit the form to set your cookie")
      }
-  document.getElementById('welcome').textContent = fname +'!';
 }
 
 </script>
