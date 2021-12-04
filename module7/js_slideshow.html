@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS SlideSHow</title>
+  <link rel="stylesheet" href="../amc-styles.css">
+  <style>
+    body {
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      background-color: beige;
+    }
+    content{
+      width:90%;
+      margin:auto;
+    }
+
+    h1 {
+      text-align:center;
+    }
+
+
+    img {
+  display:none;
+  max-width: 300px;
+}
+  </style>
+
+
+</head>
+
+<body>
+
+
+  <img src="img/AMcCarthy-draft3.jpg" width="200">
+  <img src="img/AMcCarthy-logos.png" width="300">
+  <img src="img/AMcCarthy-orca-poster.png" width="200">
+  <img src="img/AMcCarthy-mani-pedi.png" width="300">
+  <img src="img/congrats-brian.jpg" width="200">
+
+    
+  </div>
+  <script>
+
+const images = document.querySelectorAll("img"); 
+
+let i = 0;
+
+setInterval(function(){ 
+
+  if(i == 0) {
+    images[i].style.display = 'block';
+  } else if(i == images.length ) {
+    images[i - 1].style.display = 'none';
+    images[0].style.display = 'block';
+    i = 0;
+  } else {
+    images[i - 1].style.display = 'none';
+    images[i].style.display = 'block';
+  }
+  
+ i++;
+ 
+}, 2000);
+
+</script>
+  
+</body>
+</html>
