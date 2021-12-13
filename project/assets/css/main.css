@@ -17,6 +17,7 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  scroll-behavior: smooth;
   vertical-align: baseline;
 }
 
@@ -3746,4 +3747,4 @@ body.is-preload #header.alt .logo {
 
 .line-height-2 { line-height: 2rem }
 .margin-auto { margin: 0 auto; }
-.text-center { text-align: center  }
+.text-center { text-align: center }
